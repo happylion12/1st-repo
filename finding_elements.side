@@ -1,0 +1,113 @@
+{
+  "id": "556fd603-75a0-4d3a-9c7e-3ad8d2471c35",
+  "version": "2.0",
+  "name": "finding_elements",
+  "url": "https://www.booking.com/",
+  "tests": [{
+    "id": "5ab074a1-ab50-4ffe-9eca-23382215c4fd",
+    "name": "find",
+    "commands": [{
+      "id": "8d3188a1-815c-483e-8d7f-838aa1923d1a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.walmart.com/account/signup",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad60f625-48f8-4097-86d6-ca962cdffa1b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1058x810",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee3597ad-08d8-4211-b682-5c003b4ace77",
+      "comment": "",
+      "command": "click",
+      "target": "id=first-name-su",
+      "targets": [
+        ["id=first-name-su", "id"],
+        ["name=firstName", "name"],
+        ["css=#first-name-su", "css:finder"],
+        ["xpath=//input[@id='first-name-su']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-up-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd30c857-2b25-47b5-a1e7-98d28ded4da7",
+      "comment": "",
+      "command": "click",
+      "target": "id=last-name-su",
+      "targets": [
+        ["id=last-name-su", "id"],
+        ["name=lastName", "name"],
+        ["css=#last-name-su", "css:finder"],
+        ["xpath=//input[@id='last-name-su']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-up-form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76dd8548-8629-48ff-9d3f-bda5bc276a98",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-su",
+      "targets": [
+        ["id=email-su", "id"],
+        ["css=#email-su", "css:finder"],
+        ["xpath=//input[@id='email-su']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-up-form']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//form[2]/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca3e74d8-1f5c-43fa-954f-bbb1fc72bc01",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2e9b99f6-a1b4-4cbf-840a-cc5aedcbefd4",
+    "name": "booking",
+    "commands": [{
+      "id": "8e252c4b-969a-4578-ab27-175c5dc5bf3a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.booking.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3927878a-3c6d-4348-9d11-05852eba917f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1058x810",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "011fbf56-2440-4023-9d90-89b39b58c400",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bui-button--secondary:nth-child(1) > .bui-button__text",
+      "targets": [
+        ["css=.bui-button--secondary:nth-child(1) > .bui-button__text", "css:finder"],
+        ["xpath=//body[@id='b2indexPage']/header/nav/div[2]/div[5]/a/span", "xpath:idRelative"],
+        ["xpath=//div[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "70a9353c-8ec4-49f8-af49-7997a3890865",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5ab074a1-ab50-4ffe-9eca-23382215c4fd"]
+  }],
+  "urls": [],
+  "plugins": []
+}

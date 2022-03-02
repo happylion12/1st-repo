@@ -1,0 +1,221 @@
+{
+  "id": "3e00396d-bf32-4939-9d7c-a7022e0d41be",
+  "version": "2.0",
+  "name": "exercise_1_record_playback",
+  "url": "https://tiki.vn",
+  "tests": [{
+    "id": "8845c2d5-f5b4-4e71-8bb9-8ab2175ef30a",
+    "name": "search_tiki",
+    "commands": [{
+      "id": "d0473b87-278e-4e05-a44b-0d5cc82d3d47",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed99cbff-2a55-42c3-873b-f13b129424a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x806",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b2795b3-9375-4888-bfd7-342682a12a10",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=gạo",
+      "targets": [
+        ["linkText=gạo", "linkText"],
+        ["css=.style__StyledHeaderKeyWords-sc-1tmiyrh-0 > a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'gạo')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/header/div[2]/div/div/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://tiki.vn/gao-nep/c44876?src=featured_keywords')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'gạo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "710170e1-d626-45c6-a48f-2b74bbc64868",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FormSearch__Input-sc-1fwg3wo-2",
+      "targets": [
+        ["css=.FormSearch__Input-sc-1fwg3wo-2", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "597ca01f-4fbd-4144-a9fb-46e6141c3a3c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.FormSearch__Input-sc-1fwg3wo-2",
+      "targets": [
+        ["css=.FormSearch__Input-sc-1fwg3wo-2", "css:finder"],
+        ["xpath=//input[@value='baking soda']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "baking soda"
+    }, {
+      "id": "7c633458-a3f7-4f0e-b053-068a5ab6d856",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.FormSearch__Input-sc-1fwg3wo-2",
+      "targets": [
+        ["css=.FormSearch__Input-sc-1fwg3wo-2", "css:finder"],
+        ["xpath=//input[@value='baking soda']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "793cf400-7b69-4259-a4fc-1771567c53de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FormSearch__Input-sc-1fwg3wo-2",
+      "targets": [
+        ["css=.FormSearch__Input-sc-1fwg3wo-2", "css:finder"],
+        ["xpath=//input[@value='baking soda']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7af42b3-1703-4fe8-880a-6b6706dc2b82",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FormSearch__Input-sc-1fwg3wo-2",
+      "targets": [
+        ["css=.FormSearch__Input-sc-1fwg3wo-2", "css:finder"],
+        ["xpath=//input[@value='baking soda']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bfad228-5a89-45c7-bbd0-95fc933cc334",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.FormSearch__Input-sc-1fwg3wo-2",
+      "targets": [
+        ["css=.FormSearch__Input-sc-1fwg3wo-2", "css:finder"],
+        ["xpath=//input[@value='baking soda']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60933d33-489f-4248-b569-e6a4b5119bb0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.FormSearch__Input-sc-1fwg3wo-2",
+      "targets": [
+        ["css=.FormSearch__Input-sc-1fwg3wo-2", "css:finder"],
+        ["xpath=//input[@value='ban lam viec']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ban lam viec"
+    }, {
+      "id": "340d26eb-3e4c-45f4-9946-3513277597d8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.FormSearch__Input-sc-1fwg3wo-2",
+      "targets": [
+        ["css=.FormSearch__Input-sc-1fwg3wo-2", "css:finder"],
+        ["xpath=//input[@value='ban lam viec']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d3d30a19-b99e-447c-af4d-77e75dd2321d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FormSearch__Input-sc-1fwg3wo-2",
+      "targets": [
+        ["css=.FormSearch__Input-sc-1fwg3wo-2", "css:finder"],
+        ["xpath=//input[@value='ban lam viec']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a57db792-02eb-4b80-9a7b-97a0050c364a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(3) > .keyword",
+      "targets": [
+        ["css=.item:nth-child(3) > .keyword", "css:finder"],
+        ["xpath=//div[@id='__next']/div/header/div/div/div/div[2]/div/div/div/a[3]/div", "xpath:idRelative"],
+        ["xpath=//a[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc8e05c2-ae9c-411e-b8cc-027f1f663a95",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=tất cả thịt rau củ",
+      "targets": [
+        ["linkText=tất cả thịt rau củ", "linkText"],
+        ["css=.style__StyledHeaderKeyWords-sc-1tmiyrh-0 > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'tất cả thịt rau củ')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/header/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://tiki.vn/thuc-pham-tuoi-song/c44792?src=featured_keywords')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'tất cả thịt rau củ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89b0d7c3-2d26-46fd-8e8f-89a7b3ab2a55",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .product-item .WebpImg__StyledImg-sc-h3ozu8-0",
+      "targets": [
+        ["css=div:nth-child(1) > .product-item .WebpImg__StyledImg-sc-h3ozu8-0", "css:finder"],
+        ["xpath=//img[@alt='[CHỈ GIAO HCM] 500 GRAM TÔM THẺ THIÊN NHIÊN HUẾ IQF ']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div/main/div[2]/div/div[2]/div/div[2]/div/a/span/div/div/picture/img", "xpath:idRelative"],
+        ["xpath=//div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9490e090-b1f8-49a3-a4dc-09a6a0b95a09",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,294.3999938964844)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2de276a8-c427-45ef-97e7-96d2e4061598",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "css=.header > .title",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5cea1f0-f86b-4600-bd52-0696efbc8a92",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.product-price__current-price",
+      "targets": [
+        ["css=.product-price__current-price", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[3]/div/div[3]/div[2]/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a779bf4c-47a1-453e-8b2f-08ec7df49cdf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://tiki.vn/"],
+  "plugins": []
+}
